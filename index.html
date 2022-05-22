@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+  <div class="col-white">
+    <form class="form" name="form" id="form">
+      <h2>Customer Details</h2>
+      <hr>
+      <strong>Full Name</strong><span style="color: red;">*</span><br> <input type="text" class="txt-half" id="fname" name="first_name" onblur="return fname_validate()">
+      <input type="text" class="txt-half" id="lname" name="last_name" onblur="return lname_validate()" >
+       
+      <div class="size-decrease">
+
+        <label class="fn">First Name <label id="id1"></label></label> Last name<label id="id2"></label>
+      </div>
+
+      <br>
+
+      <strong>Address</strong><span style="color: red;">*</span><br><input type="text" class="txt-full" id="address1" name= "address_line1" onblur="return add1validate()" >
+        <br>
+      <div class="size-decrease">Street Address<label id="id3"></label></div>
+      <input type="text" class="txt-full" id="address2" name="address_line2" onblur="return add2validate()">
+      <div class="size-decrease">Street Address Line2<label id="id4"></label></div>
+      <input type="text" class="txt-half" id="city" name = "city" 
+       onblur="return city_validate()"> 
+      <input type="text" class="txt-half" id="province" name="province" onblur="return state_validate()">
+      <div class="size-decrease"><label class="cityname">City<label id="id5"></label> </label> State / Province<label
+          id="id6"></label></div>
+      <!-- <div class="size-decrease">State</div> -->
+      <input type="text" name="postal" class="txt-full" id="pscode" onblur="return postal_validate()"> 
+      <div class="size-decrease">Postal / Zip Code<label id="id7"></label></div><br>
+      <strong>Phone Number</strong><span style="color: red;">*</span> <br><input name="phnum" type="text" class="txt-half"
+         placeholder="(000) 000-0000" id="phone"onblur="return phone_validate()" >
+        <label id="id8"></label><br><br>
+      <strong>E-mail</strong><span style="color: red;">*</span><br><input type="text" class="txt-half" name="emailid"
+        placeholder="ex: email@yahoo.com" id="email" onblur="return email_validate()"> 
+      <div class="size-decrease">example@example.com<label id="id9"></label></div><br><br>
+      <strong>How did you hear about us?</strong><span style="color: red;">*</span><br>
+
+      <select class="txt-half" name="abtus" id="abt-btn" onblur="return drop_validate()"> 
+        <option value="" >Please Select a option</option>
+        <option value="magazine">Magazine</option>
+        <option value="Internet">Internet</option>
+        <option value="tv">TV</option>
+        <option value="others">Others</option>
+      </select><label id="id10"></label><br><br>
+      <strong>Feedback about us:</strong><span style="color: red;">*</span><br><input rows="4" cols="70" name="feedback"
+        id="feedback"  onblur="return feed_validate()"> 
+      <br><label id="id11"></label><br><br>
+      <strong>Suggestions if any for further improvement:</strong><span style="color: red;">*</span><input rows="4" cols="10" id="suggestions" name="su" onblur="return suggesstion_validate()">  
+      <br><label
+        id="id12"></label><br><br>
+      <strong><label for="recommend">Will you be willing to recommend us?</label></strong><span
+        style="color: red;">*</span> <input id="recommend"  type="checkbox" name="recommend"
+        value="r1" onblur="return checkbox_validate()" >
+        <label id="id13"></label><br><br><br>
+
+      <p class="radio-container"><strong>Gender:</strong><span style="color: red;">*</span><input type="radio" id="male" name="gender" value="Male" class="gen" onblur="return radio_validate()"> 
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" class="gen" value="Female" onblur="return radio_validate()">
+        <label for="female">Female</label>
+         <input type="radio" id="Others" class="gen"name="gender" value="Others" onblur="return radio_validate()"> 
+        <label for="Others">Others</label><label id="id14"></label></p>
+
+      <strong>Please give reference of any two people whom you feel:</strong>
+      <table>
+        <tr>
+          <th class="cell-remove"></th>
+          <th class="cell-color">Fullname</th>
+
+          <th class="cell-color">Address</th>
+          <th class="cell-color">Contact Number</th>
+        </tr>
+        <tr>
+          <td class="cell-color">1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+        <tr>
+          <td class="cell-color">2</td>
+          <td></td>
+          <td></td>
+          <td></td>
+
+        </tr>
+      </table>
+      <hr>
+      <input type="submit" onclick="return radio_validate()" id="submit" class="button">
+    </form><br><br>
+    
+  <script src="/javascript/validator.js"></script>
+  <!-- <script src="/javascript/jquery-3.6.0.min.js"></script>
+  <script src="/javascript/jquery.validate.min.js"></script>
+  <script src="/javascript/jqueryplugins.js"></script>
+  <script src="/javascript/additional-methods.js"></script> -->
+</body>
+
+</html>

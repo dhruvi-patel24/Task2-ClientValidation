@@ -1,0 +1,215 @@
+table {
+  border: none;
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  border: 1px solid black;
+}
+
+.cell-remove {
+  border: none;
+}
+
+.cell-color {
+  background-color: rgb(139, 199, 245);
+}
+
+form {
+  /* margin-top: 10rem; */
+  margin-left: 1rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+br {
+  margin-bottom: 1rem;
+}
+
+table {
+  width: 0%;
+}
+
+textarea {
+  width: 94%;
+  height: 120px;
+}
+
+.txt-full {
+  width: 94%;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.txt-full:hover {
+  border-color: rgb(123, 38, 242);
+}
+
+.txt-half {
+  width: 45%;
+  margin-right: 1px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.txt-half:hover {
+  border-color: rgb(123, 38, 242);
+}
+
+.size-decrease {
+  font-size: small;
+  color: grey;
+  margin-top: 3px;
+}
+
+strong {
+  font-size: 17px;
+}
+
+.fn {
+  padding-right: 19rem;
+}
+
+.cityname {
+  margin-right: 20rem;
+}
+
+body {
+  background-color: rgb(246, 217, 248);
+}
+
+.col-white {
+  background-color: white;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#id1 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id2 {
+  margin-left: 1rem;
+  color: red;
+  
+}
+
+#id3 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id4 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id5 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id6 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id7 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id8 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id9 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id10 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id11 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id12 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id13 {
+  margin-left: 1rem;
+  color: red;
+}
+
+#id14 {
+  margin-left: 1rem;
+  color: red;
+}
+.error{
+  color: red;
+  font-size: 12px;
+}
+#fname-error{
+  position: absolute;
+  left: 17rem;
+  top: 135px;
+}
+#lname-error{
+  position: absolute;
+  left: 43rem;
+  top: 135px;
+}
+#address1-error{
+  position: absolute;
+  left:17rem;
+  top:14rem
+}
+#address2-error{
+  position: absolute;
+  left:19rem;
+  top:275px;
+}
+#city-error{
+  position: absolute;
+  left: 17rem;
+  top: 328px;
+}
+#province-error{
+  position: absolute;
+  left: 43rem;
+  top: 328px;
+}
+#pscode-error{
+  position: absolute;
+  top: 380px;
+  left: 18rem;
+}
+#suggestions{
+  height: 9rem;
+  width: 97%;
+}
+#feedback{
+  height: 9rem;
+  width: 97%;
+}
